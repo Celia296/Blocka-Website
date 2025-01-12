@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #fff;
+    background-image: url('IMG/background.png'); /* Replace 'your-image-path.jpg' with your image path */
+    background-size: cover; /* Makes the image cover the entire screen; stretch it*/
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+}
+
+.welcome{
+    /* background-color: white; */
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+/* Navbar */
+.navbar {
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+}
+/* Navbar Logo */
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin-right: auto;
+    float: left;
+}
+/* Navbar Links */
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+/* Navbar Link Items */
+.navbar .nav-links li {
+    margin: 0 1rem;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+/* Navbar Link Hover */
+.navbar .nav-links a:hover {
+    color: #f4c10f;
+}
+
+button {
+    padding: 5px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+}
+/* Button Hover */
+button:hover {
+    background-color: #f4c10f;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(218, 152, 0);
+    font: 'Times New Roman';
+    /* text-align: left; */
+    margin-top: 12px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    font: 'Times New Roman';
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #0000ff;
+}
+
+header h2 {
+    color: #fa00ff;
+}
+
+.content {
+    padding: 20px;
+}
+
+h3 {
+    color: #ff0000;
+}
+
+ul, dl {
+    margin: 20px 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00faff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.paths {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.paths h3 {
+    color: #f4c10f;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.Student {
+    color: #f4c10f;
+    font-weight: bold;
+}
+.paths ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.paths ul li {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.paths ul li a {
+    color: #f4c10f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.paths ul li:hover {
+    background-color: #2b5bed;
+    color: #222;
+}
+
+.paths ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.offers {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.offers h3 {
+    color: #f4c10f;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.offers ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.offers ul li {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.offers ul li a {
+    color: #f4c10f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offers ul li:hover {
+    background-color: #2b5bed;
+    color: #222;
+}
+
+.offers ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}

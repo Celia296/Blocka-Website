@@ -1,0 +1,42 @@
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #f4c10f;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #f4c10f;
+}
+
+
+button:hover {
+    background-color: #c79014;
+}
+
+p {
+    margin-top: 15px;
+    color: #f4c10f;
+}
+
+a {
+    color: #f4c10f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
